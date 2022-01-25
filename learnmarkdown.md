@@ -59,8 +59,7 @@ System.out.println("Language specific code block");
 
 |State | Capital | Population |
 |:------|:-------:|-----------:|
-
-|Iowa   |Des Moines |215,636|
-|Kansas |Topeka |126,397|
-|Nebraska| Lincoln| 283,839|
-|Wisconsin| Madison |254,977|
+| Iowa   |Des Moines |215,636 |
+| Kansas |Topeka |126,397 |
+| Nebraska| Lincoln| 283,839 |
+| Wisconsin| Madison |254,977 |
