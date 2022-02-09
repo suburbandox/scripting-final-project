@@ -17,6 +17,8 @@ In Chapter 1, I wrote my first JavaScript program! It was kind of underwhelming,
 
 ## Chapter 2
 
-Chapter 2 introduced the concept of variables; they can be numbers, strings, or Boolean values. This is identical to their use in Python or Java. Arrays in JavaScript are like lists of variables. Interestingly, you can have different types of data in an array. There are multiple ways to add to or delete from them. You can add a single variable or multiple variables to the beginning or end of the array, and you can delete single variable from both ends as well.  Finally, I learned about commenting and its usefulness. I recognize that sometimes my commenting is skimpy and I will try to be more thorough in future comments.
+Chapter 2 introduced the concept of ##variables; they can be numbers, strings, or Boolean values. This is identical to their use in Python or Java. Arrays in JavaScript are like lists of variables. Interestingly, you can have different types of data in an array. There are multiple ways to add to or delete from them. You can add a single variable or multiple variables to the beginning or end of the array, and you can delete single variable from both ends as well.  Finally, I learned about commenting and its usefulness. I recognize that sometimes my commenting is skimpy and I will try to be more thorough in future comments.
 
 ## Chapter 3
+
+Chapter 3 introduces ##conditional ##statements and describes how their answers are Boolean; the statements are either true or false. If statements can evaluate more than one condition, and the statement can be set up to be true if any one of the subcomponents is true OR only if all are true.  Conditional statements can be nested to describe complex conditions.  In addition to IF statements, JavaScript also utilizes For and Do/While loops to iterate over a condition.  A specific query or task can be saved as a function, which can then be inserted into code later on.
