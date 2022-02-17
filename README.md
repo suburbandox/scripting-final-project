@@ -1,5 +1,5 @@
 # scripting-final-project
-# Final Project
+## Final Project
 
 This is the final project for my CIS-280 Client Side Scripting course at Kirkwood Community College. Below is a journal of all the things I learned throughout the class.
 
