@@ -83,26 +83,26 @@ window.addEventListener("keydown", function (event) {
 
         const keyPress = event.key;
         if (keyPress.match(/^[a-z]/g)) {
-            console.log(keyPress);
+            //console.log(keyPress);
             if (selectword.includes(keyPress)) {
                 if (!correctLetters.includes(keyPress)) {
                     correctLetters.push(keyPress);
                     displayword();
-                    console.log("CORRECT " + correctLetters);
+                    //console.log("CORRECT " + correctLetters);
                 } else {
                     //displayword();
-                    console.log("CORRECT " + correctLetters);
+                    //console.log("CORRECT " + correctLetters);
                     showNotification(keyPress);
 
                 }
             } else {
                 if (!wrongLetters.includes(keyPress)) {
                     wrongLetters.push(keyPress);
-                    console.log("INCORRECT " + wrongLetters);
+                   //console.log("INCORRECT " + wrongLetters);
                     updateWrongLetters();
 
                 } else {
-                    console.log("INCORRECT " + wrongLetters);
+                    //console.log("INCORRECT " + wrongLetters);
                     showNotification(keyPress);
 
                 }
@@ -136,7 +136,7 @@ function displayword() {
     wordEl.innerHTML = result;
 
     const innerLetters = wordEl.innerText.replace(/\n/g, '');;
-    console.log(innerLetters);
+    //console.log(innerLetters);
     if (innerLetters == selectword) {
         gameplaying = false;
         finalMessage.innerHTML = "you winner"
