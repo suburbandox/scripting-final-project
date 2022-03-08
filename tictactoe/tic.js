@@ -3,6 +3,7 @@ var keepPlaying; // bool
 var row, col; // int
 var board;
 
+let turn=0;
 const ticTacToeContainer = document.getElementById("tic-tac-toe-container");
 let playerIdstatment = document.getElementById("current-player");
 const xs_and_os = document.getElementById("xs-and-os");
@@ -12,6 +13,7 @@ const fin = document.getElementById('final-message');
 
 playAgainBtn.addEventListener("click",function(){
     keepPlaying =true;
+    turn = 0;
     //board[row][col] ="";
     for (var x = 0; x < board.length; x++) {
         for (var y = 0; y < board[x].length; y++) {
@@ -140,7 +142,15 @@ ticTacToeContainer.addEventListener("click", function (event) {
         if (marked) {
             checkWinner();
             switchPlayer();
-
+            turn++;
+            console.log(turn);
+            if(turn === 9){
+                winner = true;
+                console.log("ther is no winner!");
+                console.log(keepPlaying);
+                fin.innerHTML = "no one has won!";
+                popup.style.display ="flex";
+            }
         }
     }
 
