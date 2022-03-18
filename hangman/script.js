@@ -80,7 +80,7 @@ function getRandomWord() {
 
   const randIndex = Math.floor(Math.random() * words.length);
   selectedWord = words[randIndex][0].toLowerCase();
-  console.log(selectedWord);
+  //console.log(selectedWord);
 }
 
 function displayWord() {

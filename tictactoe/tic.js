@@ -105,7 +105,7 @@ function markBoard(row, col) {
             drawMark(row, col);
             marked = true;
         } else {
-            console.log("Spot is being used");
+            //console.log("Spot is being used");
         }
     }
     return marked;
@@ -143,18 +143,18 @@ ticTacToeContainer.addEventListener("click", function (event) {
             checkWinner();
             switchPlayer();
             turn++;
-            console.log(turn);
+            //console.log(turn);
             if(turn === 9){
                 winner = true;
-                console.log("ther is no winner!");
-                console.log(keepPlaying);
+                //console.log("ther is no winner!");
+                //console.log(keepPlaying);
                 fin.innerHTML = "no one has won!";
                 popup.style.display ="flex";
             }
         }
     }
 
-    console.log(board);
+    //console.log(board);
 });
 function checkWinner() {
     let winner = false;
@@ -184,8 +184,8 @@ function checkWinner() {
     }
     if (keepPlaying === false) {
         winner = true;
-        console.log("player " + currentPlayer + " is the winner!");
-        console.log(keepPlaying);
+        //console.log("player " + currentPlayer + " is the winner!");
+        //console.log(keepPlaying);
         fin.innerHTML = "player "+currentPlayer+" has won!";
         popup.style.display ="flex";
     }
@@ -194,4 +194,4 @@ function checkWinner() {
 
 //checkWinner();
 main();
-console.log(keepPlaying);
+//console.log(keepPlaying);
