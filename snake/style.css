@@ -1,0 +1,94 @@
+.grid{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+
+    
+}
+.grid div{
+    width: 80px;
+    height: 80px;
+
+}
+.snake{
+    background-color: greenyellow;
+}
+.apple{
+    background-color: red;
+    
+}
+.score{margin:0 auto;
+    display: block;
+    text-align: center;
+    font-size: 200%;
+}
+body{
+    background-color: aqua;
+}
+.cell{
+    background-color: aquamarine;
+}
+.pushable {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 200%;
+    background: hsl(340deg 100% 32%);
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+
+  }
+  .front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+    will-change: transform;
+    transition: transform 250ms;
+
+  }
+
+  .pushable:active .front {
+    transform: translateY(-2px);
+  }
+  #left{
+      width: 20%;
+      float: left;
+      padding-left: 30px;
+      font-size: 1.3rem;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+  }
+  #right{
+    width: 20%;
+    float: right;
+    padding-right: 30px;
+    font-size: 2rem;
+    text-align: center;
+
+  }
+  #c{
+      font-weight: bold;
+      font-size: 2rem;
+
+  }
+  #snakey{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: yellowgreen;
+    font-size: 5rem;
+  }
+
+  #play{
+      font-size: 1.7rem;
+  }
