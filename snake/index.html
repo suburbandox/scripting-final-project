@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snake</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
 </head>
@@ -18,8 +20,8 @@
         <p id="play">
             For this JavaScript project, I decided to make the game Snake.
             In Snake, the arrow keys control the direction of the snake; 
-            the purpose of the game is to obtain as many apples as possible.
-            If, however, the snake hits one of the walls, the game is over.
+            the purpose of the game is to obtain 10 apples.
+            If, however, the snake hits any thing, the game is over.
             Move the snake by manipulating the arrow keys.
             Good luck!
 
@@ -29,7 +31,27 @@
         <p id="c">
           CONTROLS          
         </p>
-        <img src="Key.png" alt="">
+
+         <div id="controls">
+            <div id="up">
+                <div id="one" class="key"><i class="fa-solid fa-circle-arrow-up"></i></div>
+            </div>
+            <div id="down">
+                <div id="two" class="key"> <i class="fa-solid fa-circle-arrow-left"></i></div>
+                <div id="three"class="key"><i class="fa-solid fa-circle-arrow-down"></i></div>
+                <div id="four"class="key"><i class="fa-solid fa-circle-arrow-right"></i></div>
+            </div>
+            <div id="up">
+                <div id="w" class="key"><i class="fa-solid fa-w"></i></div>
+            </div>
+            <div id="down">
+                <div id="a" class="key"><i class="fa-solid fa-a"></i> </div>
+                <div id="s"class="key"><i class="fa-solid fa-s"></i></div>
+                <div id="d"class="key"><i class="fa-solid fa-d"></i></div>
+            </div>
+        </div>
+        
+        <!-- <img src="Key.png" alt=""> -->
         <button class="pushable">
             <span class="front">
             Start/Restart
@@ -38,6 +60,7 @@
         </button>
         
         <div class="score">Apples:<span id="score2">0</span></div>
+       
     </div>
     <div class="grid">
         <div></div>
@@ -141,6 +164,11 @@
         <div></div>
         <div></div>
     </div>
-
+    <div id="popup-container">
+        <div id="modal">
+            <h2 id="final-message">Welcome to Snake.<br>Click Play to begin.</h2>
+            <button id="play-button">Play</button>
+        </div>
+    </div>
 </body>
 </html>
