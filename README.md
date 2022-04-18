@@ -22,4 +22,10 @@ Chapter 2 introduced the concept of **variables** ; they can be numbers, strings
 ## Chapter 3
 
 Chapter 3 introduces  **conditional**  **statements** and describes how their answers are Boolean; the statements are either true or false. If statements can evaluate more than one condition, and the statement can be set up to be true if any one of the subcomponents is true OR only if all are true.  Conditional statements can be nested to describe complex conditions.  In addition to IF statements, JavaScript also utilizes For and Do/While loops to iterate over a condition.  A specific query or task can be saved as a function, which can then be inserted into code later on. :kissing_smiling_eyes:
+
+## Chapter 4 
+
+Chapter 4 introduces jQuery. First it describes the reasons why jQuery is so powerful. Next it tells how to get jQuery. The chapter moves on to describing how to add jQuery to a page, then it gives an overview followed by details of how to select an element on a page, then modify it with jQuery. How to change an element’s property, adding new content, removing an element, extracting information from an element, and adding or removing a class attribute are described. There are several tutorials ending up with how to add pullquotes to an HTML page. I found this chapter pretty dense and slow going. There is a lot of information provided that will become very useful once I get used to using it. 
+:kissing_smiling_eyes:
+
 https://suburbandox.github.io/scripting-final-project/hangman/
