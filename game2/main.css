@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#red {
+    position: fixed;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: green;
+    z-index: 2;
+    padding-top: 30px;
+}
+#blue {
+    position: fixed;
+    display: none;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: blue;
+    z-index: 2;
+    padding-top: 30px;
+}
