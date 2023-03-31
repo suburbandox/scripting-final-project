@@ -1,0 +1,17 @@
+.grid { 
+    width: 400px; 
+    height: 300px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    } 
+.text { 
+    width: 400px; 
+    height: 300px; 
+    display: inline-block; 
+
+
+    } 
+
+    
+
+ 
